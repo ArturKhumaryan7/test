@@ -1,0 +1,98 @@
+
+.rootContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 150px;
+}
+
+.toolBarContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 68px;
+    margin-left: 16px;
+}
+
+.filterContainer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filterInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.filterButton {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: flex-end;
+    width: 98%;
+}
+
+.filteredContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.acssesText {
+    border-radius: 25px;
+    margin: 5px 10px;
+    background-color: lightgray;
+    font-size: 14px;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startText {
+    border-radius: 25px;
+    margin: 5px 10px;
+    background-color: lightgray;
+    font-size: 14px;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    position: relative;
+    top: -20px;
+    left: -25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.partnersHeader {
+    width: 975px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 0.15px
+}
+
+.btnCreatePartners {
+    width: 177px;
+    height: 36px;
+    background: #5048E5;
+    border-radius: 8px;
+}
