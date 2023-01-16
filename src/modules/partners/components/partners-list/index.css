@@ -1,0 +1,37 @@
+.filterIcon {
+  color: #5048e5;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btnInActive {
+  width: 71px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.87);
+  padding: 7px 10px;
+  font-size: 13px;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  height: 36px;
+  width: 240px;
+  background-color: #f3f4f6;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  padding: 10px;
+}
+
+.searchIcon {
+  padding: 3px 1px;
+}
+
+.searchClearIcon {
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  padding: 3px 1px;
+  margin-top: 6px;
+}

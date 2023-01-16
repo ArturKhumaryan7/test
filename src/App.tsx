@@ -1,14 +1,8 @@
-import React from 'react';
-import './App.css';
-import Partners from "./components/Partners";
+import React from "react";
+import "./App.css";
+import { Partners } from "./modules/partners/components/Partners";
 
 function App() {
-
-  return (
-      <div style={{ margin: '100px' }}>
-        <Partners/>
-      </div>
-  );
+  return <Partners />;
 }
-
 export default App;
